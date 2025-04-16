@@ -23,7 +23,8 @@
     "check-tamagui": "tamagui check",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepare": "husky"
+    "prepare": "husky",
+    "generate:kitchen": "node ./scripts/generate-kitchen-manifest.mjs"
   },
   "resolutions": {
     "react": "^18.3.1",
